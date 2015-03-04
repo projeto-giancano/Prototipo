@@ -6,11 +6,11 @@ public class Hoverlight : MonoBehaviour {
 	private Color startcolor;
 	void OnMouseEnter(){
 		Debug.Log ("hi");
-		startcolor = renderer.material.color;
-		renderer.material.color = Color.red;
+		startcolor = GetComponent<Renderer>().material.color;
+		GetComponent<Renderer>().material.color = Color.red;
 	}
 	void OnMouseExit()
 	{
-		renderer.material.color = startcolor;
+		GetComponent<Renderer>().material.color = startcolor;
 	}
 }

@@ -8,11 +8,13 @@ Temp
 *.user
 *.pidb
 *.userprefs
+*.log
 
 Library/cache/*
 Library/metadata/*
 Library/previews/*
 Library/ScriptAssemblies/*
+Library/ShaderCache/*
 
 Builds/*
 
